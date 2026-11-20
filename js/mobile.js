@@ -429,7 +429,7 @@ function detectVenueForRoom(roomName, customRoomVenues) {
   if (lower.includes('poster') || lower.includes('póster') || lower.includes('exposición') || lower.includes('exposicion') || lower.includes('exhibit') || lower.includes('feria')) {
     return 'eposter';
   }
-  if (lower.includes('exterior') || lower.includes('sede social') || lower.includes('mártires') || lower.includes('martires') || lower.includes('córdova') || lower.includes('cordova') || lower.includes('cena') || lower.includes('muelle')) {
+  if (lower.includes('exterior') || lower.includes('sede social') || lower.includes('mártires') || lower.includes('martires') || lower.includes('córdova') || lower.includes('cordova') || lower.includes('chapiteles') || lower.includes('cena') || lower.includes('muelle')) {
     return 'exterior';
   }
   if (lower.includes('speaker ready') || lower.includes('andalucía i (') || lower.includes('andalucia i (') || lower.includes('registro') || lower.includes('registration') || lower.includes('hall principal') || lower.includes('almacén') || lower.includes('almacen') || lower.includes('oración') || lower.includes('oracion') || lower.includes('prayer') || lower.includes('sala u1') || lower.includes('salas z2') || lower.includes('z2 & z4') || lower.includes('comité') || lower.includes('comite') || lower.includes('vip')) {
@@ -468,6 +468,7 @@ function setupRoomsAndVenues() {
 
   roomVenueMap = {};
   var detectedHotelName = '';
+  var detectedExteriorName = '';
   rawList.forEach(function(r) {
     var vKey = detectVenueForRoom(r, customRoomVenues);
     roomVenueMap[r] = vKey;
@@ -477,11 +478,21 @@ function setupRoomsAndVenues() {
         detectedHotelName = mHotel[1].trim();
       }
     }
+    if (vKey === 'exterior' && !detectedExteriorName) {
+      var mExt = r.match(/((?:Carmen|Palacio|Jardines|Hacienda|Mirador)\s+de\s+[A-Za-zÁÉÍÓÚÑáéíóúñ0-9\s]+?)(?:\s*[-–—(]|$)/i);
+      if (mExt && mExt[1]) {
+        detectedExteriorName = mExt[1].trim();
+      }
+    }
   });
 
   if (detectedHotelName) {
     VENUE_DEFINITIONS['hotel'].name = detectedHotelName;
     VENUE_DEFINITIONS['hotel'].shortName = detectedHotelName;
+  }
+  if (detectedExteriorName) {
+    VENUE_DEFINITIONS['exterior'].name = detectedExteriorName + ' (Sede Exterior)';
+    VENUE_DEFINITIONS['exterior'].shortName = detectedExteriorName;
   }
 
   // Ordenar allRoomsList agrupando por orden de sede y luego alfabéticamente

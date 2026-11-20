@@ -5,7 +5,7 @@
     "name": "Cytometry26",
     "logo": "./eventos_guardados/cytometry26/uploads/Clipboard02.jpg",
     "created_at": "2026-11-20T17:15:03.686161",
-    "updated_at": "2026-11-20T18:05:37.975812",
+    "updated_at": "2026-11-20T18:05:57.460415",
     "dates": {
       "start": "2026-11-24",
       "end": "2026-11-27"
@@ -30,9 +30,9 @@
     "branch": "main",
     "html_url": "https://github.com/VisualXet/cytometry26",
     "pages_url": "https://visualxet.github.io/cytometry26/",
-    "last_commit_sha": "",
-    "last_synced_at": "",
-    "has_unpushed_changes": true
+    "last_commit_sha": "013db868268afd919f9bf677e577f1c867df8f6a",
+    "last_synced_at": "2026-11-20T18:05:57.460346",
+    "has_unpushed_changes": false
   },
   "theme": {
     "default_mode": "dark",
@@ -48,7 +48,8 @@
   },
   "sources": {
     "uploaded_files": [
-      "Program_Cytometry-2026.pdf"
+      "Program_Cytometry-2026.pdf",
+      "Cytometry2026_Planning.pdf"
     ],
     "scraped_urls": [
       "https://www.alphavisa.com/cytometry/2026/",
@@ -143,7 +144,6 @@
       "Sala de Prensa - Level +2",
       "Sala Embajadores - Level +2",
       "Seminar 6+7 - Level +1",
-      "Sony Spectral User Meeting",
       "Carmen de los Chapiteles - Granada"
     ],
     "days": [
@@ -153,7 +153,18 @@
         "sessions": [
           {
             "id": "web-sess-001",
-            "room": "Sony Spectral User Meeting",
+            "room": "Hall - Level +1",
+            "time_start": "08:15",
+            "time_end": "09:00",
+            "title": "Meeting registration (Pre-Conference & Sony User Meeting)",
+            "speakers": [],
+            "moderators": [],
+            "sub_talks": [],
+            "venue": "palacio"
+          },
+          {
+            "id": "web-sess-002",
+            "room": "Andalucia I+II - Level +1",
             "time_start": "08:30",
             "time_end": "09:00",
             "title": "[Sony User Meeting] Coffee and Registration",
@@ -163,8 +174,8 @@
             "venue": "palacio"
           },
           {
-            "id": "web-sess-002",
-            "room": "Sony Spectral User Meeting",
+            "id": "web-sess-003",
+            "room": "Andalucia I+II - Level +1",
             "time_start": "09:00",
             "time_end": "09:15",
             "title": "[Sony User Meeting] Welcome and Introductions",
@@ -185,8 +196,8 @@
             "venue": "palacio"
           },
           {
-            "id": "web-sess-003",
-            "room": "Sony Spectral User Meeting",
+            "id": "web-sess-004",
+            "room": "Andalucia I+II - Level +1",
             "time_start": "09:15",
             "time_end": "09:55",
             "title": "[Sony User Meeting] Autofluorescence Beyond Background",
@@ -207,8 +218,8 @@
             "venue": "palacio"
           },
           {
-            "id": "web-sess-004",
-            "room": "Sony Spectral User Meeting",
+            "id": "web-sess-005",
+            "room": "Andalucia I+II - Level +1",
             "time_start": "09:55",
             "time_end": "10:15",
             "title": "Handling Autofluorescence: Spectral Unmixing of Innate Lymphoid Cells in BAL Samples Using the Sony ID7000",
@@ -229,8 +240,8 @@
             "venue": "palacio"
           },
           {
-            "id": "web-sess-005",
-            "room": "Sony Spectral User Meeting",
+            "id": "web-sess-006",
+            "room": "Andalucia I+II - Level +1",
             "time_start": "10:15",
             "time_end": "10:45",
             "title": "Exploiting the 320 nm Laser for Deep Immune Profiling: A 50-Plus Multiplexed Approach on the Sony ID7000",
@@ -251,8 +262,8 @@
             "venue": "palacio"
           },
           {
-            "id": "web-sess-006",
-            "room": "Sony Spectral User Meeting",
+            "id": "web-sess-007",
+            "room": "Andalucia I+II - Level +1",
             "time_start": "10:45",
             "time_end": "11:15",
             "title": "[Sony User Meeting] Coffee Break",
@@ -262,8 +273,8 @@
             "venue": "palacio"
           },
           {
-            "id": "web-sess-007",
-            "room": "Sony Spectral User Meeting",
+            "id": "web-sess-008",
+            "room": "Andalucia I+II - Level +1",
             "time_start": "11:15",
             "time_end": "11:40",
             "title": "[Sony User Meeting] Ensuring Accurate Unmixing: Practical Considerations for Single-Stained Controls",
@@ -284,8 +295,8 @@
             "venue": "palacio"
           },
           {
-            "id": "web-sess-008",
-            "room": "Sony Spectral User Meeting",
+            "id": "web-sess-009",
+            "room": "Andalucia I+II - Level +1",
             "time_start": "11:40",
             "time_end": "11:55",
             "title": "[Sony User Meeting] Same Fluorophore, Different Signal: Why Control Choice Sometimes Matters in Spectral Unmixing",
@@ -306,8 +317,8 @@
             "venue": "palacio"
           },
           {
-            "id": "web-sess-009",
-            "room": "Sony Spectral User Meeting",
+            "id": "web-sess-010",
+            "room": "Andalucia I+II - Level +1",
             "time_start": "11:55",
             "time_end": "12:15",
             "title": "[Sony User Meeting] Towards Objective and Reproducible Data Analysis: Introducing a Computational Spectral Reference Adjustment Algorithm",
@@ -328,8 +339,8 @@
             "venue": "palacio"
           },
           {
-            "id": "web-sess-010",
-            "room": "Sony Spectral User Meeting",
+            "id": "web-sess-011",
+            "room": "Andalucia I+II - Level +1",
             "time_start": "12:15",
             "time_end": "12:40",
             "title": "[Sony User Meeting] Standardizing Monocyte Immunophenotyping: Insights from Cardiometabolic Risk Cohorts",
@@ -350,8 +361,8 @@
             "venue": "palacio"
           },
           {
-            "id": "web-sess-011",
-            "room": "Sony Spectral User Meeting",
+            "id": "web-sess-012",
+            "room": "Andalucia I+II - Level +1",
             "time_start": "12:40",
             "time_end": "13:10",
             "title": "[Sony User Meeting] The Immune landscape of aging in more detail - using a 6 laser ID7000",
@@ -372,8 +383,8 @@
             "venue": "palacio"
           },
           {
-            "id": "web-sess-012",
-            "room": "Sony Spectral User Meeting",
+            "id": "web-sess-013",
+            "room": "Andalucia I+II - Level +1",
             "time_start": "13:10",
             "time_end": "13:30",
             "title": "[Sony User Meeting] Closing Remarks",
@@ -383,8 +394,8 @@
             "venue": "palacio"
           },
           {
-            "id": "web-sess-013",
-            "room": "Sony Spectral User Meeting",
+            "id": "web-sess-014",
+            "room": "Andalucia I+II - Level +1",
             "time_start": "13:30",
             "time_end": "14:30",
             "title": "[Sony User Meeting] Lunch and Networking",
@@ -394,7 +405,7 @@
             "venue": "palacio"
           },
           {
-            "id": "web-sess-015",
+            "id": "web-sess-016",
             "room": "Andalucia I+II - Level +1",
             "time_start": "14:30",
             "time_end": "17:30",
@@ -410,7 +421,7 @@
             "venue": "palacio"
           },
           {
-            "id": "web-sess-016",
+            "id": "web-sess-017",
             "room": "Andalucia III - Level +1",
             "time_start": "14:30",
             "time_end": "17:30",
@@ -425,7 +436,7 @@
             "venue": "palacio"
           },
           {
-            "id": "web-sess-018",
+            "id": "web-sess-019",
             "room": "Sala Embajadores - Level +2",
             "time_start": "14:30",
             "time_end": "17:30",
@@ -438,7 +449,7 @@
             "venue": "palacio"
           },
           {
-            "id": "web-sess-017",
+            "id": "web-sess-018",
             "room": "Sala de Prensa - Level +2",
             "time_start": "14:30",
             "time_end": "17:30",
@@ -453,7 +464,7 @@
             "venue": "palacio"
           },
           {
-            "id": "web-sess-014",
+            "id": "web-sess-015",
             "room": "Seminar 6+7 - Level +1",
             "time_start": "14:30",
             "time_end": "17:30",
@@ -1742,7 +1753,7 @@
             "room": "Carmen de los Chapiteles - Granada",
             "time_start": "21:00",
             "time_end": "21:45",
-            "title": "Gala Dinner - \u0007Sponsored by",
+            "title": "Gala Dinner - \u0007",
             "moderators": [],
             "sub_talks": [
               {
@@ -2041,15 +2052,14 @@
     "pdf_type": "scientific_program",
     "pdf_label": "Programa de Sesiones y Ponencias",
     "room_venues": {
-      "Sony Spectral User Meeting": "palacio",
-      "Andalucia I+II - Level +1": "palacio",
-      "Carmen de los Chapiteles - Granada": "exterior",
-      "Sala Embajadores - Level +2": "palacio",
-      "Andalucia III - Level +1": "palacio",
-      "Sala de Prensa - Level +2": "palacio",
       "Seminar 6+7 - Level +1": "palacio",
+      "Hall - Level +1": "palacio",
+      "Andalucia I+II - Level +1": "palacio",
+      "Sala de Prensa - Level +2": "palacio",
+      "Carmen de los Chapiteles - Granada": "exterior",
       "Manuel de Falla Auditorium - Level +1": "palacio",
-      "Hall - Level +1": "palacio"
+      "Sala Embajadores - Level +2": "palacio",
+      "Andalucia III - Level +1": "palacio"
     }
   }
 }
