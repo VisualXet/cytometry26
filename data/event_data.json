@@ -5,7 +5,7 @@
     "name": "Cytometry26",
     "logo": "./eventos_guardados/cytometry26/uploads/Clipboard02.jpg",
     "created_at": "2026-11-20T17:15:03.686161",
-    "updated_at": "2026-11-20T18:05:57.460415",
+    "updated_at": "2026-11-20T18:24:24.282143",
     "dates": {
       "start": "2026-11-24",
       "end": "2026-11-27"
@@ -16,7 +16,7 @@
     "export_dir": "./eventos_guardados/cytometry26/dist",
     "tech_support": {
       "contact_name": "FRAN",
-      "phone_whatsapp": "",
+      "phone_whatsapp": "+34609442342",
       "channel_radio": ""
     },
     "production_notes": "Wi-Fi Técnicos: Cytometry-2026\nPass: Cyto26-Granada\nControl Central: Falla",
@@ -30,7 +30,7 @@
     "branch": "main",
     "html_url": "https://github.com/VisualXet/cytometry26",
     "pages_url": "https://visualxet.github.io/cytometry26/",
-    "last_commit_sha": "013db868268afd919f9bf677e577f1c867df8f6a",
+    "last_commit_sha": "985ec51d01b34f1b9ae04e26edd8775cced830a5",
     "last_synced_at": "2026-11-20T18:05:57.460346",
     "has_unpushed_changes": false
   },
@@ -2052,14 +2052,14 @@
     "pdf_type": "scientific_program",
     "pdf_label": "Programa de Sesiones y Ponencias",
     "room_venues": {
-      "Seminar 6+7 - Level +1": "palacio",
-      "Hall - Level +1": "palacio",
+      "Andalucia III - Level +1": "palacio",
       "Andalucia I+II - Level +1": "palacio",
-      "Sala de Prensa - Level +2": "palacio",
       "Carmen de los Chapiteles - Granada": "exterior",
+      "Seminar 6+7 - Level +1": "palacio",
       "Manuel de Falla Auditorium - Level +1": "palacio",
       "Sala Embajadores - Level +2": "palacio",
-      "Andalucia III - Level +1": "palacio"
+      "Sala de Prensa - Level +2": "palacio",
+      "Hall - Level +1": "palacio"
     }
   }
 }
